@@ -157,6 +157,7 @@
 
 	// Header.
 		var $header = $('#header');
+		
 
 		// Links.
 			$header.find('a').each(function() {
@@ -207,7 +208,7 @@
 			});
 
 	// Main.
-		var $main = $('#main');
+		var $main = $('.main');
 
 		// Thumbs.
 			$main.children('.thumb').each(function() {
